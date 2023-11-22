@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope';
+    background-color: #EEF4ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #8DA9C4;
+    color: #0B2545;
+    padding: 40px 50px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+    text-align: center;
+}
+
+
+button {
+    background-color: #0B2545;
+    color: #EEF4ED;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #8DA9C4;
+}
+
+.resultContainer {
+    border: 20px;
+    text-align: center;
+    color: #0B2545;
+    font-size: larger;
+}
+
+span {
+    margin-bottom: 10px;
+}
